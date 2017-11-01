@@ -1,8 +1,8 @@
-require './gems/nails_4'
+require './gems/nails_5'
 
 class App
   def run
     nails = Nails.new
-    [nails.foo, nails.bar]
+    [nails.bar, nails.foo]
   end
 end
